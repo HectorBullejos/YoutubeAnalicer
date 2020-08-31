@@ -1,0 +1,12 @@
+Abstract: Tool to monitorice and classify into +700 categories based on Description, tags and Images from Youtube.
+          The main components of this tool are Python, Youtube API and Google Cloud Services like Cloud Vision API and Cloud Natural Language based on NLP Algorithms.
+          Google Cloud Vision uses API REST y RPC to be trained.
+          
+WorkFlow: 1. Launches Youtube API
+          2. Gets authenticated into Google Services.
+          3. Searches by demand in Youtube.
+          4. Extracts tags and video descriptions.
+          5. Analyzes the words through NLP.
+          6. Returns Category and confidence percentage.
+
+Libraries: google.colab, google.cloud.vision, googleapiclient.discovery, google.cloud.language_v1, PIL, MatplotLib, PyAutoGUI, pydrive.drive, oauth2client.client
